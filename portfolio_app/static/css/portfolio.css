@@ -1,0 +1,110 @@
+body {
+  /* background-color: #b04a3b; */
+  background-color: lightgray;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+}
+
+#cedar, #westview, #pif {
+    width: 500px;
+    height: 400px;
+} 
+
+#nav-logo {
+  width: 150px;
+  height: 150px;
+  
+}
+
+#navbarNav {
+  justify-content: start;
+}
+
+.nav-item {
+  padding: 20px
+}
+
+.nav-link {
+  color: lightgrey
+}
+
+main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about {
+  padding: 50px 100px 100px 100px;
+  width: 100vw;
+}
+
+#aboutme {
+  text-align: center;
+}
+
+.square, .square div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+
+.square {
+  transform: rotate(45deg) translateY(10px);
+}
+
+.square .pic {
+  width: 355px;
+  height: 355px;
+  transform: rotate(-45deg) translateY(-74px);
+}
+
+.square .pic img {
+  width: 100%;
+  height: auto;
+}
+
+.col {
+  padding: 20px
+}
+
+
+#about {
+  justify-content: center;
+}
+
+#about h1 {
+  color: #b04a3b;
+}
+#about p {
+  color: #ca8076 
+}
+
+#skills, #contact{
+  width: 50vw;
+  padding: 100px 0px 100px 0px
+}
+
+#skills-head {
+  text-align: center;
+  color: #b04a3b;
+}
+
+
+#contact h1 {
+  text-align: center;
+  color: #b04a3b;
+}
+
+
+footer {
+  background-color: #212529;
+  color: lightgrey;
+  padding: 30px;
+  text-align: center;
+}
+
