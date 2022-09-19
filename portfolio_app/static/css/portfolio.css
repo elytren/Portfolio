@@ -4,8 +4,8 @@ body {
 }
 
 img {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
 }
 
 #cedar, #westview, #pif {
@@ -79,9 +79,10 @@ main {
 
 #about h1 {
   color: #b04a3b;
+  
 }
 #about p {
-  color: #ca8076 
+  color: #ca8076;
 }
 
 #skills, #contact{
