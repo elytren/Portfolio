@@ -4,8 +4,23 @@ body {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
+}
+
+main {
+  text-align: center;
+  color: #b04a3b;
+}
+
+#projects button {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
+  border: none;
+  background-color: #ca8076;
+  color: white
 }
 
 #cedar, #westview, #pif {

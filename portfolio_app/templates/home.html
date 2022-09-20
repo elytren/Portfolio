@@ -13,7 +13,7 @@
         <div class="col">
             <div class="square">
                 <div class="pic">
-                    <img src="{% static 'images/headshot9.png'  %}" />
+                    <img src="{% static 'images/headshot.png'  %}" />
                 </div>
             </div>
         </div>
@@ -52,24 +52,53 @@
         <div class="col"><a href="mailto:elysetrendell@gmail.com"><img class='mx-auto d-block' src="{% static 'images/gmail.png' %}"   /></a></div>
     </div>
 </div>
-<div id="projects">
-    <h1>Projects</h1>
-    <div>
-        <h3>Cedar</h3>
-        <h5>Board Game App</h5>
-        <img id='cedar' src="{% static 'images/cedar.png' %}"  />
-        <a href="">learn more</a>
+<div class="container-fluid" id="projects">
+    <h1 class="p-5">Projects</h1>
+    <div class="row">
+        <div class="p-2 col">
+            <div>
+                <h3>Cedar</h3>
+                <img id='cedar' src="{% static 'images/cedar.png' %}"  />
+            </div>
+            <div class="p-3">
+                <a href="https://github.com/elytren/Cedar"><button>Repo</button></a>
+                <a href="https://elytren.github.io/Cedar/"><button>Site</button></a>
+            </div>
+        </div>
+        <div class="p-3 col">
+            <div>
+                <h3>Westview</h3>
+                <img id='westview' src="{% static 'images/westview.png' %}"/>
+            </div>
+            <div class="p-3">
+                <a href="https://github.com/elytren/Westview"><button>Repo</button></a>
+                <a href="https://wandavision-westview.herokuapp.com/wv"><button>Site</button></a>
+            </div>
+        </div>
     </div>
-    <div>
-        <h3>Westview</h3>
-        <img id='westview' src="{% static 'images/westview.png' %}"/>
-        <a href="https://wandavision-westview.herokuapp.com/wv">learn more</a>
+    <div class="row">
+        <div class="p-3 col">
+            <div>
+                <h3>Plant it Forward</h3>
+                <img id='pif' src="{% static 'images/plant_it_forward.png'  %}" />
+            </div>
+            <div class="p-3">
+                <a href="https://github.com/Plants-and-stuff"><button>Repo</button></a>
+                <a href="https://plant-it-forward.herokuapp.com/"><button>Site</button></a>
+            </div>
+        </div>
+        <div class="p-3 col">
+            <div>
+                <h3>Free Trade Adventures</h3>
+                <img id='pif' src="{% static 'images/fta.png'  %}" />
+            </div>
+            <div class="p-3">
+                <a href="https://github.com/elytren/Tiny-Libraries-Frontend"><button>Repo</button></a>
+                <a href="https://freetradeadventures.netlify.app/"><button>Site</button></a>
+            </div>
+        </div>
     </div>
-    <div>
-        <h3>Plant it Forward</h3>
-        <img id='pif' src="{% static 'images/plant_it_forward.png'  %}" />
-        <a href="https://plant-it-forward.herokuapp.com/">learn more</a>
-    </div>
+   
 </div> 
 
 {% endblock %}
